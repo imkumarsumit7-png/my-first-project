@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VERTICAL NAVBAR</title>
+    </head>
+    <style>
+        nav{background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.3s;
+        border-radius: 12px;
+        width: 100px;
+        height: 100vh}
+
+        .nav-links a{color: wheat;
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-decoration: none;}
+
+        .nav-links a:hover{transform: scale(1.06);
+        color: lightblue;}
+
+        .navbar:hover{transform: scale(1.06);}
+
+
+    </style>
+    <body>
+        <nav class="navbar">
+            <h4>LOGO</h4>
+            <div class="nav-links">
+
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">PROJECTS</a>
+                <a href="#">CONTACT</a>
+
+            </div>
+        </nav>
+    </body>
+</html>
