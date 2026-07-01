@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>Navbar creation</title>
+   </head>
+    <style>
+        nav{background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        transition: 0.3s;
+        border-radius: 10px;
+        align-items: center;}
+
+    .nav-links a{color: white;
+                text-decoration: none;}
+
+    .nav-links{display: flex;
+               gap: 15px;}
+
+        
+    .navbar:hover{transform: scale(1.06);}
+    .nav-links a:hover{color: yellow;}
+    </style>
+    <body>
+        <nav class="navbar">
+            
+            <h2>My Portfolio</h2>
+
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </body>
+</html>
